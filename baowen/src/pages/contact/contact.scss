@@ -1,0 +1,67 @@
+page-contact {
+    .contact_wrap{
+        padding:0px 20px;
+        
+
+  .name{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e8e7e7;
+  .kongxi{
+    display: inline-block;
+    width: 2px;
+    background-color: black;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .detail_name{
+    vertical-align: middle;
+    
+  }
+}
+.contact_name{
+    margin-top: 20px;
+    
+}
+.contact_phone,.contact_address,.contact_do,.contact_show{
+    margin-top: 15px;
+}
+
+    }
+    .phone{
+        color: #00b300;
+    }
+    .pifa,.sale{
+        display: inline-block;
+    width: 47px;
+    background-color: #d7f7d7;;
+    padding: 5px;
+    height: 25px;
+    color: #17ab17;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 13px;
+    }
+    .sale{
+        margin-left: 15px;
+    }
+    .kongbai{
+        margin-top: 25px;
+        width: 100%;
+        height: 15px;
+        background-color: #f7f7f7;
+    }
+    .ditu{
+        padding: 10px 20px;
+    }
+    .go{
+        height: 23px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 15px;
+    color: #38bd38;
+    font-weight: bold;
+    }
+}

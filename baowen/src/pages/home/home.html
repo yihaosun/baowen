@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>首页</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+    <!-- 轮播:
+    autoplay:2s之后开始轮播
+    loop:循环播放
+    pager:分页器（小圆点） pager=true 
+  -->
+  <ion-slides autoplay="2000" loop=true>
+      <ion-slide *ngFor="let item of slidesItems">
+        <img src="{{item.img}}" class="slide-image">
+      </ion-slide>
+    </ion-slides>
+  <div class='introduce_wrap'>
+    <div class='introduce_title'>
+      公司介绍：
+    </div>
+    <div class='introduce_content'>
+        绍兴市越城区绿洁保温是专业从事管道设备保温工程的施工,主要经营：化工石油设备防腐工程。和热水管、蒸气管、太阳能管道、空调管道的保温、防腐工程。公司以严格的管理、真诚的服务、赢得了广大客户的认可与好评，已与多家客户及工程单位建立长期双赢的合作关系。我们本着以用户至上、质量第一、服务为先的宗旨热忱为您服务。
+    </div>
+  </div>
+  <div class='introduce_wrap'>
+      <div class='introduce_title'>
+        公司优势：
+      </div>
+      <div class='introduce_content'>
+          我公司对锅炉管道，各种设备管道，铁皮，铝皮等，各种保温材料能够熟练的使用的安装。本公司承接全国各地各种保温工程。销售各种保温材料。 
+      </div>
+    </div>
+    <div class='introduce_wrap'>
+        <div class='introduce_title'>
+            经营理念：
+        </div>
+        <div class='introduce_content'>
+            科技领先，用户至上，诚信经营，服务社会。　
+        </div>
+      </div>
+      <div class='introduce_wrap'>
+          <div class='introduce_title'>
+              经营方针：
+          </div>
+          <div class='introduce_content'>
+              诚实守信，是我们的准则；产品质量，是我们的生命；高效服务，是我们的承诺；客户满意是我们的追求！
+          </div>
+        </div>
+        <div class='introduce_wrap'>
+            <div class='introduce_title'>
+                公司主营：
+            </div>
+            <div class='introduce_content'>
+                浙江绍兴管道保温;
+            </div>
+          </div>
+</ion-content>

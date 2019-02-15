@@ -1,0 +1,52 @@
+page-about{
+    .content_wrap{
+        width: 100%;
+        .content_list{
+           padding:10px 10px 5px 10px;
+           border-bottom: 1px solid #e8e7e7;
+            .img_wrap{
+                overflow: hidden;
+               height: 0;
+               padding-bottom: 60%;
+               img{
+                   border-radius: 5px;
+                   // height: 100%;
+                   width: 100%;
+               }
+            }
+            .content_wrap{
+               padding: 10px;
+               margin-top: 10px;
+            }
+            .do_wrap{
+               height: 25px;
+               width: 100%;
+               display: flex;
+               .good_wrap{
+                   padding-left: 15px;
+                   color: #8c8989;
+                   line-height: 25px;
+                   .good,.discuss{
+                       display: inline-block;
+                   }
+                   .discuss{
+                       margin-left: 20px;
+                   }
+               }
+               .price{
+                   padding-right: 40px;
+                   text-align: right;
+                   font-size: 20px;
+                   color: #05a924;
+               }
+            }
+        }
+    }
+    .flex-2{
+        flex:2;
+    }
+    .color1{
+        color: orange;
+    }
+   
+}

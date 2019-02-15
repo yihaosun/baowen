@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     简介
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <div class="segment_background" [class.fixedsegment]="fixSegment">
+    <ion-segment [(ngModel)]="thingSegment" mode="md" (ionChange)="segmentChanged($event)">
+      <ion-segment-button  *ngFor="let thingItem of thingArray"
+                          value="{{thingItem.key}}">
+        <ion-icon name="{{thingItem.value}}"></ion-icon>
+        {{thingItem.key}}
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+  <div class='content_wrap'>
+      <div class='content_list' *ngFor="let item of activity;let indx=index" >
+            <div class='img_wrap'>
+              <img src="{{item.img }} ">
+            </div>
+            <div class='content_wrap'>
+              {{item.des}}
+            </div>
+            <div class='do_wrap'>
+                 <div class='flex-2 good_wrap'>
+                  </div>
+            </div>
+      </div>
+  </div>
+</ion-content>
